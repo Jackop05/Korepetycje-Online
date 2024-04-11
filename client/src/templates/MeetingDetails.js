@@ -329,13 +329,12 @@ export default function MeetingDetails() {
                 </div>
                 <div className="meeting-page-buying-section">
                     <div className="meeting-page-left">
+                        <div className="error">Aktualnie strona jest w tarakcie przygotowywania płatności</div>
+                        <div className="error">Aby umówić korepetycje skontaktuj się z numerem 696100061</div>
                         <div className="meeting-page-buying-text">Liczba wykupywanych zajęć:</div>
                         <div className="meeting-main-box">
                             <select id="buying-courses-count" name="buying-courses-count" onChange={(event) => {setNumber(event.target.value)}}>
                                 <option value="1">1</option>
-                                <option value="4">4</option>
-                                <option value="10">10</option>
-                                <option value="20">20</option>
                             </select>
                         </div>
                     </div>
