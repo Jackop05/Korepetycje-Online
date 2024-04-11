@@ -1,0 +1,470 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* */
+
+
+
+.madimi-one-regular {
+    font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+/* */
+
+
+
+body {
+    @apply p-0 m-0 bg-white ;
+}
+
+.welcoming-page, .main-page {
+    @apply overflow-y-auto snap-y snap-mandatory w-100vw h-100vh;
+}
+
+.snap {
+    @apply snap-always snap-start;
+}
+
+
+
+/* */
+
+
+
+.welcoming-page {
+    @apply p-0 m-0 bg-white; 
+}
+
+.navbar {
+    @apply bg-white py-2 px-12 mb-10 flex justify-between fixed shadow-navbar rounded-b-3xl text-center w-full z-50 bg-opacity-90;
+}
+
+.home-icon {
+    @apply h-10 w-auto mt-2 cursor-pointer;
+}
+
+.navbar-right {
+    @apply flex gap-6;
+}
+
+.button-navbar {
+    @apply px-8 py-4 bg-green rounded-xl text-xl cursor-pointer tracking-wide transition-all ease-in-out; 
+}
+
+.button-navbar:hover {
+    @apply shadow-lg scale-105;
+}
+
+
+
+.hero-section {
+    @apply grid grid-cols-2 h-screen relative z-10;
+}
+
+.hero-left {
+    @apply flex flex-col ml-third justify-center text-right;
+}
+
+.hero-description {
+    @apply flex justify-end mb-2 text-40 text-right font-bold;
+}
+
+.hero-mini-description {
+    @apply text-lg;
+}
+
+.hero-right {
+    @apply flex flex-col justify-center;
+}
+
+.hero-image {
+    @apply w-2third;
+}
+
+
+
+.questions-section {
+    @apply pt-15vh mx-auto h-screen p-10 grid grid-cols-2 gap-8 bg-white bg-opacity-50;
+}
+
+.question-section-bg {
+    @apply bg-bg bg-no-repeat bg-center;
+}
+
+.questions-left {
+    @apply text-30 text-right font-bold
+}
+
+.questions-right {
+    @apply mt-15vh text-30 text-left font-bold;
+}
+
+.question {
+    @apply mb-qm drop-shadow-xl transition-all ease-in-out cursor-default;
+}
+
+.question:hover {
+    @apply drop-shadow-2xl scale-105;
+}
+
+
+.courses-section {
+    @apply pt-20 relative bg-purple h-screen flex flex-col justify-center;
+}
+
+.courses-image {
+    @apply w-250px relative;
+}
+
+.courses-image-1 {
+    @apply top-350px;
+}
+
+.courses-image-box {
+    @apply w-full relative bottom-350px flex justify-end z-50;
+}
+
+.courses {
+    @apply grid grid-cols-3 px-40 py-20 gap-y-8 gap-x-12 mx-auto;
+}
+
+.course {
+    @apply flex flex-col justify-between bg-white w-200px border-2 border-black rounded-3xl px-4 py-6 text-center cursor-pointer h-40vh max-h-80 shadow-md transition-all ease-in-out;  
+}
+
+.course-title {
+    @apply text-xl font-bold tracking-wide;
+}
+
+.course-down {
+    @apply flex flex-col justify-end;
+}
+
+.course-image {
+    @apply w-20 mx-auto mb-6;
+}
+
+.course-cost {
+    @apply text-xl font-bold tracking-wide;
+}
+
+.course:hover {
+    @apply scale-110 shadow-2xl
+}
+
+
+
+.footer-section {
+    @apply flex justify-between py-2 px-4;
+}
+
+.footer-left {
+    @apply flex gap-4;
+}
+
+.footer-icon {
+    @apply w-8 cursor-pointer;
+}
+
+.footer-right {
+    @apply flex flex-col justify-center;
+}
+
+.phone-number {
+    @apply font-bold;
+}
+
+
+
+/* */
+
+
+
+.create-user-page, .login-page {
+    @apply p-0 m-0 w-screen h-screen;
+}
+
+.home-link {
+    @apply absolute top-8 left-8 bg-purple rounded-full w-24 h-24 flex flex-col justify-center cursor-pointer;
+}
+
+.home-icon-create-user, .home-icon-login {
+    @apply w-12 h-12 m-auto;
+}
+
+
+
+.main-create-user, .main-login {
+    @apply flex justify-around w-full h-full;
+}
+
+.middle {
+    @apply flex flex-col justify-center;
+}
+
+.create-user-template, .login-template {
+    @apply flex flex-col justify-center border-2 border-black rounded-3xl min-w-350px px-8 py-10 text-center;
+}
+
+.create-user-header, .login-header {
+    @apply m-0 mb-8 text-2xl font-bold;
+}
+
+.form-title {
+    @apply mb-2 text-sm font-bold text-left tracking-wide mt-4;
+}
+
+.form-text {
+    @apply flex gap-2 border-b-2 border-b-grey pb-2;
+}
+
+.form-icon {
+    @apply w-10 h-10;
+}
+
+input {
+    @apply w-full outline-none px-2 py-1;
+}
+
+.create-user-button, .login-button {
+    @apply px-6 py-4 mx-auto bg-green rounded-xl font-bold text-base w-200px mt-8 transition-all ease-in-out; 
+}
+
+.create-user-button:hover, .login-button:hover {
+    @apply shadow-lg scale-105;
+}
+
+.create-user-image-box-1 {
+    @apply h-full flex flex-col justify-end;
+}
+
+.create-user-image {
+    @apply w-350px h-350px relative mx-auto;
+}
+
+.create-user-image-1 {
+    @apply bottom-100px;
+}
+
+.create-user-image-2 {
+    @apply top-100px;
+}
+
+.error {
+    @apply text-red font-bold text-sm;
+}
+
+
+
+/* */ 
+
+
+
+.setting-page {
+    @apply m-0 p-0 h-screen w-screen;
+}
+
+.settings-navbar {
+    @apply bg-white py-4 px-12 mb-10 flex justify-between fixed shadow-navbar rounded-b-3xl text-center w-full z-50;
+}
+
+.home-image {
+    @apply h-10 w-auto mt-2 cursor-pointer;
+}
+
+.username {
+    @apply px-6 py-4 bg-purple rounded-xl font-bold text-lg; 
+}
+
+.log-out {
+    @apply px-6 py-4 bg-green rounded-xl font-bold text-lg opacity-0 transition-all ease-in-out cursor-pointer;
+}
+
+.navbar-right:hover .log-out {
+    @apply opacity-100;
+}
+
+.log-out:hover {
+    @apply scale-105;
+}
+
+
+
+.settings-main {
+    @apply relative top-30vh max-w-800px z-10 m-auto px-20 py-10 border-2 border-black rounded-2xl;
+}
+
+.settings-title {
+    @apply mb-6 text-3xl font-bold;
+}
+
+.settings-options {
+    @apply grid grid-cols-2 gap-x-4 gap-y-4;
+}
+
+.setting-option {
+    @apply flex gap-8 font-bold;
+}
+
+.turn-on-image {
+    @apply w-12 h-6 rounded-full bg-grey cursor-pointer relative;
+}
+
+.turn-on-button {
+    @apply w-20px h-20px rounded-full bg-green relative right-1 my-auto right-77px cursor-pointer;
+}
+
+
+
+/* */
+
+
+
+.question-courses-section {
+    @apply relative py-100px mx-auto text-center text-3xl font-bold; 
+}
+
+.question-courses-text {
+    @apply mb-20px;
+}
+
+.question-courses-arrow {
+    @apply mx-auto px-6 py-4 bg-green rounded-xl font-bold text-xl cursor-pointer w-200px;
+}
+
+.no-classes {
+    @apply mt-4 text-xl font-bold;
+}
+
+.no-courses {
+    @apply h-8 bg-purple;
+}
+
+
+
+.user-courses-section {
+    @apply relative py-50px mx-auto bg-purple;
+}
+
+.user-courses-text {
+    @apply mb-50px text-3xl font-bold text-center;
+}
+
+.user-course {
+    @apply mx-auto my-4 w-800px flex justify-between gap-10 bg-white rounded-3xl px-8 py-4 border-2 border-black min-h-32;
+}
+
+.user-course-left {
+    @apply flex flex-col justify-between max-w-80;
+}
+
+.subject-box {
+    @apply flex justify-between;
+}
+
+.subject-box-bottom {
+    @apply flex justify-between;
+}
+
+.subject {
+    @apply text-xl font-bold max-w-225px;
+}
+
+.course-image-user-courses {
+    @apply w-50px m-0 p-0;
+}
+
+.course-date {
+    @apply text-xl text-grey drop-shadow-xl;
+}
+
+.course-length {
+    @apply text-xl text-grey drop-shadow-xl;
+}
+
+.user-course-right {
+    @apply flex flex-col justify-between gap-4 my-auto;
+}
+
+.change-date-button, .cancel-meeting-button {
+    @apply mx-auto px-4 py-4 bg-green rounded-xl font-bold text-lg cursor-pointer w-200px transition-all;
+}
+
+.cancel-meeting-button:hover {
+    @apply shadow-lg scale-105;
+}
+
+
+
+/* */
+
+
+
+.meeting-details-page {
+    @apply m-0 p-0 h-screen w-screen; 
+}
+
+.meeting-details-navbar {
+    @apply bg-white py-4 px-12 mb-10 flex justify-between fixed shadow-navbar rounded-b-3xl text-center w-full z-50;
+}
+
+
+
+.meeting-page-options {
+    @apply mb-16 relative top-30vh max-w-800px z-10 m-auto px-20 py-10 border-2 border-black rounded-2xl;
+}
+
+.details-title {
+    @apply text-3xl font-bold mb-6;
+}
+
+.meeting-main {
+    @apply flex justify-between;
+}
+
+.details-hour {
+    @apply text-lg font-bold mb-2;
+}
+
+#hour {
+    @apply border border-gray-300 rounded-md px-3 py-2;
+}
+
+.meeting-page-buying-section {
+    @apply relative top-30vh mx-auto max-w-800px flex justify-between;
+}
+
+.meeting-page-left {
+    @apply flex gap-8 text-xl font-bold;
+}
+
+.meeting-page-buying-text {
+    @apply my-auto text-xl font-bold;;
+}
+
+.meeting-page-buying-number {
+    @apply border border-gray-300 rounded-md px-3 py-2;
+}
+
+#buying-courses-count {
+    @apply px-6 py-4 rounded-xl font-bold text-xl cursor-pointer border-2 border-black;
+}
+
+.meeting-page-right{
+    @apply px-6 py-4 bg-green rounded-xl font-bold text-lg cursor-pointer; 
+}
+
+.meeting-page-changing-section {
+    @apply relative top-30vh mx-auto max-w-800px flex justify-center;
+}
+
+.meeting-page-right-center {
+    @apply mx-auto;
+}
