@@ -1,18 +1,6 @@
 {
     "version": 2,
     "functions": {
-      "api/data_get": {
-        "handler": "api/data_get.js",
-        "runtime": "nodejs14.x"
-      },
-      "api/main_get": {
-        "handler": "api/main_get.js",
-        "runtime": "nodejs14.x"
-      },
-      "api/hours_get": {
-        "handler": "api/hours_get.js",
-        "runtime": "nodejs14.x"
-      },
       "api/logout_post": {
         "handler": "api/logout_post.js",
         "runtime": "nodejs14.x"
