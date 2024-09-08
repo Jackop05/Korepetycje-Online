@@ -32,7 +32,7 @@
 2. Start the client:
     ```bash
     cd client
-    npm run dev
+    npm start
 3. Start the server in diffrent place:
     ```bash
     cd server
