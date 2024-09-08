@@ -531,10 +531,9 @@ module.exports.register_post = async (req, res) => {
 
 
 
-/* 
+/*
 
 const scheduleData = [
-    _id: ObjectId('661660348e15a8d3096dd185'), 
     {   
     "Monday": [
         { "hour": "16:00", "numberOfAvailable": 1 },
@@ -655,7 +654,6 @@ const scheduleData = [
         { "hour": "20:45", "numberOfAvailable": 1 }
       ]
     },
-    __v: 0,
   ];
 
 // Loop through each day in the schedule data

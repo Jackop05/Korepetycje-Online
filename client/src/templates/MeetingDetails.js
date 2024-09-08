@@ -191,11 +191,11 @@ const setHours = (day, length, readyHours, setHoursData, setHour) => {
             break;
     }
 
-    const mondayArray = readyHours.monday;
-    const tuesdayArray = readyHours.tuesday;
-    const wednesdayArray = readyHours.wednesday;
-    const thursdayArray = readyHours.thursday;
-    const fridayArray = readyHours.friday;
+    const mondayArray = readyHours?.monday;
+    const tuesdayArray = readyHours?.tuesday;
+    const wednesdayArray = readyHours?.wednesday;
+    const thursdayArray = readyHours?.thursday;
+    const fridayArray = readyHours?.friday;
 
     let newMonday = [], newTuesday = [], newWednesday = [], newThursday = [], newFriday = [];
 

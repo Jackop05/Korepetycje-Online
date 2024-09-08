@@ -21,7 +21,7 @@ app.set('view engine', 'ejs');
 
 
 // Define the connection URIs for the two databases
-const dbURI_Uczniowie = 'mongodb+srv://JakubSztobryn:Malgosia1006!@cluster0.jmqs0ry.mongodb.net/Uczniowie';
+const dbURI_Uczniowie = 'mongodb+srv://JakubSztobryn:Malgosia1006!@cluster0.jmqs0ry.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0';
 mongoose.connect(dbURI_Uczniowie)
     .then((result) => {
         app.listen(5000)
