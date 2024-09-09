@@ -3,6 +3,8 @@
 ## 📝 Project Overview
 **KorepetycjeOnline** is a comprehensive online tutoring platform built with `React`, `Node.js`, and `Tailwind CSS`, aimed at connecting students with qualified tutors for personalized lessons. Users can browse and book courses, manage their sessions, and interact with their tutors in real-time. The platform offers various subjects such as math and physics for different educational levels.
 
+![image](https://github.com/user-attachments/assets/440cf7cc-16bb-48bb-b350-aa85d0dcd72b)
+
 ## 💡 Features
 - **Course Booking System:**  
   Users can browse available courses and book one-on-one sessions based on their educational needs.
